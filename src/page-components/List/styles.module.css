@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.item {
+    padding: 5px 2px;
+    border: solid 0.5px #e0e0e0;
+    width: 100%;
+}
+
+.bold_font {
+    font-weight: 600;
+}

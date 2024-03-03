@@ -1,0 +1,27 @@
+.main_container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.styled_input {
+    width: 400px;
+    border: solid 1px #ee3425;
+    border-radius: 5px;
+    padding: 6px 3px;
+}
+
+.styled_input:hover {
+    border: solid 1px #ee3425;
+}
+
+.search_label {
+    background-color: #fff;
+    position: absolute;
+    top: -10px;
+    padding: 0 5px;
+}
